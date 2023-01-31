@@ -8,20 +8,20 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <Button variant="contained" size="large">
+        <Button variant="outlined" size="medium" color="primary">
           <Link to="/table">Table</Link>
         </Button>
-        <Button variant="contained">
+        <Button variant="outlined" size="medium" color="primary">
           <Link to="/charts">Charts</Link>
         </Button>
       </nav>
       <Switch>
         <Route path="/table">
-          <h1>Table Library</h1>
+          <h1>Users</h1>
           <TableComponent />
         </Route>
         <Route path="/charts">
-          <h1>Chart Library</h1>
+          <h1>Revenue</h1>
           <Charts />
         </Route>
       </Switch>

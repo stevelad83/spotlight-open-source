@@ -10,11 +10,11 @@ const data = [
 export default function Charts() {
   return (
     <VictoryChart domainPadding={20}>
-      {/* <VictoryAxis
+      <VictoryAxis
         tickValues={[1, 2, 3, 4]}
         tickFormat={['Quarter 1', 'Quarter 2', 'Quarter 3', 'Quarter4']}
-      />{' '}
-      <VictoryAxis dependentAxis tickFormat={(x) => `$${x / 1000}k`} /> */}
+      />
+      <VictoryAxis dependentAxis tickFormat={(x) => `$${x / 1000}k`} />
       <VictoryBar data={data} x="quarter" y="earnings" />
     </VictoryChart>
   );
