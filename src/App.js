@@ -2,13 +2,18 @@ import { Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 import TableComponent from './components/TableComponent.js';
 import Charts from './components/Charts.js';
+import { Button } from '@mui/material';
 
 function App() {
   return (
     <div className="App">
       <nav>
-        <Link to="/table">Table</Link>
-        <Link to="/charts">Charts</Link>
+        <Button variant="contained" size="large">
+          <Link to="/table">Table</Link>
+        </Button>
+        <Button variant="contained">
+          <Link to="/charts">Charts</Link>
+        </Button>
       </nav>
       <Switch>
         <Route path="/table">
