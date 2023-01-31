@@ -19,7 +19,7 @@ export default function TableComponent() {
         <HeaderCell>Name</HeaderCell>
         <Cell dataKey="name" />
       </Column>
-      <Column width={100} sortable resizable>
+      <Column width={200} sortable resizable>
         <HeaderCell>Email</HeaderCell>
         <Cell dataKey="email" />
       </Column>
