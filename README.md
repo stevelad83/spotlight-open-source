@@ -1,5 +1,7 @@
 # Spotlight Open Source & Using Documentation
 
+https://github.com/rsuite/rsuite-table
+
 ## Getting Started
 
 Use [this](https://github.com/alchemycodelab/react-spotlight-open-source) template to get started with this deliverable.
@@ -36,9 +38,9 @@ The purpose of this week's spotlight is to introduce you to using open-source li
 
 ## Rubric
 
-| Looking for...                                                                           | Points |
-| ---------------------------------------------------------------------------------------- | ------ |
+| Looking for...                                                                                                  | Points |
+| --------------------------------------------------------------------------------------------------------------- | ------ |
 | A chart displaying some type of analysis of the user data (or any data you want) showing on the `/charts` route | 5      |
 | A table of the user data (or any data you want) showing on the `/tables` route                                  | 5      |
-| CSS Library installed and implemented                                                    | 5      |
-| Reflection on using open source                                                          | 5      |
+| CSS Library installed and implemented                                                                           | 5      |
+| Reflection on using open source                                                                                 | 5      |
